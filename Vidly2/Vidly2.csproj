@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -195,6 +196,22 @@
     <Compile Include="Migrations\201701042136447_ApplyAnnontationsToCustomerName.Designer.cs">
       <DependentUpon>201701042136447_ApplyAnnontationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701042227522_addNameToMembership.cs" />
+    <Compile Include="Migrations\201701042227522_addNameToMembership.Designer.cs">
+      <DependentUpon>201701042227522_addNameToMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701042235179_ToAddNameIntoMembershipTypes.cs" />
+    <Compile Include="Migrations\201701042235179_ToAddNameIntoMembershipTypes.Designer.cs">
+      <DependentUpon>201701042235179_ToAddNameIntoMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701042244050_ToAddName234IntoMembershipTypes.cs" />
+    <Compile Include="Migrations\201701042244050_ToAddName234IntoMembershipTypes.Designer.cs">
+      <DependentUpon>201701042244050_ToAddName234IntoMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701042325557_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\201701042325557_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>201701042325557_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -295,6 +312,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701042136447_ApplyAnnontationsToCustomerName.resx">
       <DependentUpon>201701042136447_ApplyAnnontationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701042227522_addNameToMembership.resx">
+      <DependentUpon>201701042227522_addNameToMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701042235179_ToAddNameIntoMembershipTypes.resx">
+      <DependentUpon>201701042235179_ToAddNameIntoMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701042244050_ToAddName234IntoMembershipTypes.resx">
+      <DependentUpon>201701042244050_ToAddName234IntoMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701042325557_AddBirthDateToCustomer.resx">
+      <DependentUpon>201701042325557_AddBirthDateToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
