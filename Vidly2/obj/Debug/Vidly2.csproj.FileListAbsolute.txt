@@ -190,3 +190,6 @@ C:\Users\Jean-Sébastien Lemel\Documents\GitHub\Vidly2-theRealOne\Vidly2\obj\Deb
 C:\Users\Jean-Sébastien Lemel\Documents\GitHub\Vidly2-theRealOne\Vidly2\obj\Debug\Vidly2.Migrations.ToAddNameIntoMembershipTypes.resources
 C:\Users\Jean-Sébastien Lemel\Documents\GitHub\Vidly2-theRealOne\Vidly2\obj\Debug\Vidly2.Migrations.ToAddName234IntoMembershipTypes.resources
 C:\Users\Jean-Sébastien Lemel\Documents\GitHub\Vidly2-theRealOne\Vidly2\obj\Debug\Vidly2.Migrations.AddBirthDateToCustomer.resources
+C:\Users\Jean-Sébastien Lemel\Documents\GitHub\Vidly2-theRealOne\Vidly2\obj\Debug\Vidly2.Migrations.ChangeBrithDateToNull.resources
+C:\Users\Jean-Sébastien Lemel\Documents\GitHub\Vidly2-theRealOne\Vidly2\obj\Debug\Vidly2.Migrations.AddDbsetMovies.resources
+C:\Users\Jean-Sébastien Lemel\Documents\GitHub\Vidly2-theRealOne\Vidly2\obj\Debug\Vidly2.Migrations.PopulateMovieDatabase.resources

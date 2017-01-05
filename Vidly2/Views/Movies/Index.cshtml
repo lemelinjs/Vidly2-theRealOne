@@ -7,11 +7,20 @@
 
 <h2>Films</h2>
 <table class="table table-bordered">
+    <thead>
+        <th>
+            Titre
+        </th>
+        <th>
+            Genre
+        </th>
+    </thead>
 
 @foreach (var Movie in Model)
 {
     <tr>
-        <td>@Movie.Name </td>
+        <td>@Html.ActionLink(@Movie.Name,"Details", "Movies", new { id=Movie.Id },null )</td>
+        <td>@Movie.Genre </td>
     </tr>
 }
 

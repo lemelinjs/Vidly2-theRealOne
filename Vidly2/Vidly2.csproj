@@ -212,6 +212,18 @@
     <Compile Include="Migrations\201701042325557_AddBirthDateToCustomer.Designer.cs">
       <DependentUpon>201701042325557_AddBirthDateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701051509332_ChangeBrithDateToNull.cs" />
+    <Compile Include="Migrations\201701051509332_ChangeBrithDateToNull.Designer.cs">
+      <DependentUpon>201701051509332_ChangeBrithDateToNull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701051524025_AddDbsetMovies.cs" />
+    <Compile Include="Migrations\201701051524025_AddDbsetMovies.Designer.cs">
+      <DependentUpon>201701051524025_AddDbsetMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701051527446_PopulateMovieDatabase.cs" />
+    <Compile Include="Migrations\201701051527446_PopulateMovieDatabase.Designer.cs">
+      <DependentUpon>201701051527446_PopulateMovieDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -285,6 +297,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -324,6 +337,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701042325557_AddBirthDateToCustomer.resx">
       <DependentUpon>201701042325557_AddBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701051509332_ChangeBrithDateToNull.resx">
+      <DependentUpon>201701051509332_ChangeBrithDateToNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701051524025_AddDbsetMovies.resx">
+      <DependentUpon>201701051524025_AddDbsetMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701051527446_PopulateMovieDatabase.resx">
+      <DependentUpon>201701051527446_PopulateMovieDatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
